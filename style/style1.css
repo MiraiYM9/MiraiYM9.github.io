@@ -29,8 +29,11 @@ html {
   /* biar scrollnya halus */
 }
 
+html::-webkit-scrollbar-track {
+  background: var(--black);
+}
 html::-webkit-scrollbar-thumb {
-  background: var(--bg);
+  background: var(--main-color);
 }
 
 body {
@@ -575,5 +578,41 @@ section {
   }
   .news .konten h4 {
     font-size: 3rem;
+  }
+}
+
+/* hp kecil */
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .news .btn a {
+    margin-right: 0;
+    padding: 1rem;
+  }
+
+  .news .btn i {
+    margin-top: 1.5rem;
+    padding: 1rem;
+  }
+
+  .topanime .btn a {
+    margin-right: 0;
+    padding: 1rem;
+  }
+
+  .topanime .btn i {
+    margin-top: 1.5rem;
+    padding: 1rem;
+  }
+
+  .movie .btn a {
+    margin-right: 0;
+    padding: 1rem;
+  }
+
+  .movie .btn i {
+    margin-top: 1.5rem;
+    padding: 1rem;
   }
 }
