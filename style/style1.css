@@ -587,32 +587,38 @@ section {
     font-size: 50%;
   }
   .news .btn a {
-    margin-right: 0;
-    padding: 1rem;
+    margin-right: 0.3rem;
+    margin-top: 1.5rem;
+    padding: 1.3rem;
   }
 
   .news .btn i {
+    margin-right: 0.3rem;
     margin-top: 1.5rem;
-    padding: 1rem;
+    padding: 1.3rem;
   }
 
   .topanime .btn a {
-    margin-right: 0;
-    padding: 1rem;
+    margin-right: 0.3rem;
+    margin-top: 1.5rem;
+    padding: 1.3rem;
   }
 
   .topanime .btn i {
+    margin-right: 0.3rem;
     margin-top: 1.5rem;
-    padding: 1rem;
+    padding: 1.3rem;
   }
 
   .movie .btn a {
+    margin-top: 1.5rem;
     margin-right: 0;
-    padding: 1rem;
+    padding: 1.3rem;
   }
 
   .movie .btn i {
+    margin-right: 0.3rem;
     margin-top: 1.5rem;
-    padding: 1rem;
+    padding: 1.3rem;
   }
 }
