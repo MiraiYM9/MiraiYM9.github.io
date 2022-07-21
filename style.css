@@ -128,10 +128,16 @@ section {
   font-size: 3rem;
   text-align: left;
 }
-.home .konten .carousel .carousel-inner .carousel-item h5 {
+.home .konten .carousel .carousel-inner .carousel-item a {
+  color: white;
+  font-size: 10rem;
+  text-decoration: none;
   font-size: 4rem;
 }
-.home .konten .carousel .carousel-inner .carousel-item h5:hover {
+.home .konten .carousel .carousel-inner .carousel-item h5 {
+  font-size: 5rem;
+}
+.home .konten .carousel .carousel-inner .carousel-item a:hover {
   color: var(--main-color);
   border-bottom: 0.3rem solid var(--main-color);
 }
