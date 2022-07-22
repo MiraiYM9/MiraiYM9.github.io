@@ -300,6 +300,31 @@ section {
 }
 
 /* hp */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  section {
+    padding: 2rem;
+  }
+  .video .konten .row .col1 {
+    height: 30rem;
+  }
+  .video .konten .row h4 {
+    display: none;
+  }
+
+  .video .konten .row ul {
+    display: none;
+  }
+
+  .description .konten .row .col h4 {
+    text-align: left;
+  }
+}
 
 @media (max-width: 768px) {
   #menu-btn {

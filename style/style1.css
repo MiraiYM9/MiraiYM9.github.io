@@ -475,6 +475,21 @@ section {
   font-size: 1rem;
 }
 
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .header .navbar {
+    gap: 1rem;
+  }
+  section {
+    padding: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   #menu-btn {
     color: white;
@@ -584,7 +599,7 @@ section {
 /* hp kecil */
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 60%;
   }
   .news .btn a {
     margin-right: 0.3rem;
